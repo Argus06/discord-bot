@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 load_dotenv() # .envファイルを読み込む
 
-TOKEN = os.getenv("TOKEN")
+TOKEN = os.getenv("BOT_TOKEN")
 CHANNEL_ID = 1336776924323774565 # 送信先チャンネルID
 
 # Intents設定
